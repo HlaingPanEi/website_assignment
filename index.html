@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Bootstrap</title>
+</head>
+<body>
+    <ul class="nav nav-tabs">
+        <li class="nav-items">
+            <a href="#" class="nav-link active">
+                All User
+                <span class="badge bg-primary rounded-pill">20</span>
+            </a>
+        </li>
+        <li class="nav-items">
+            <a href="#" class="nav-link">New User</a>
+        </li>
+        <li class="nav-items">
+            <a href="#" class="nav-link">Other User</a>
+        </li>
+        <li class="nav-items">
+            <a href="#" class="nav-link">More User</a>
+        </li>
+    </ul>
+    <br>
+    <br>
+
+    <!-- <nav class="navbar navbar-expend-sm sticky-top navar-dark bg-primary">
+        <div class="container-fluid">
+            <a href="#" class="navbar-brand">My App</a>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="#" class="nav-link active">Home</a>
+                </li>
+                <li class="nav-items">
+                    <a href="#" class="nav-link">Services</a>
+                </li>
+                <li class="nav-items">
+                    <a href="#" class="nav-link">About</a>
+                </li>
+                <li class="nav-items">
+                    <a href="#" class="nav-link">contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+     -->
+    <nav class="navbar navbar-expand-sm sticky-top navbar-dark bg-primary">
+        <div class="container-fluid">
+            <a href="#" class="navbar-brand">My App</a>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="#" class="nav-link active">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <br><br>
+    <a href="#" class="btn btn-danger">First Button</a>
+    <a href="#" class="btn btn-warning">Second Button</a>
+
+    <div class="alert alert-primary">Primary Alert</div>
+    <div class="alert alert-success">Success Alert></div>
+    <div class="alert alert-danger">Danger Alert></div>
+
+    <ul class="list-group">
+        <li class="list-group-item">One</li>
+        <li class="list-group-item active">Two</li>
+        <li class="list-group-item">Three</li>
+        <li class="list-group-item list-group-item-warning">Four</li>
+        <li class="list-group-item list-group-item-danger">Five</li>
+    </ul><br><br>
+
+    <table class="table table-striped table-bordered">
+        <tr>
+            <th>ID</th><th>Name</th><th>Age</th>
+        </tr>
+        <tr>
+            <td>1</td><td>Mg Mg</td><td>22</td>
+        </tr>
+        <tr>
+            <td>2</td><td>Aye Aye</td><td>25</td>
+        </tr>
+        <tr>
+            <td>3</td><td>Kyaw Kyaw</td><td>23</td>
+        </tr>
+
+    </table>
+    <br>
+
+    <form>
+        <div class="input-group mb-3"> 
+            <input type="text" class="form-control">
+            <button class="btn btn-primary">search</button>
+        </div>
+
+
+        </div>
+        <div class="form-floating mb-3">
+            <input type="text" id="name" class="form-control" placeholder="Your Name">
+            <label for="name">Your Name</label>
+        </div>
+        <label for="name">Email</label>
+        <div class="input-group mb-3">
+            <input type="text" id="email" class="form-control">
+            <span class="input-group-text">@gmail.com</span>
+        </div>
+
+        <label for="number">Price</label>
+        <div class="input-group mb-3">
+            <span class="input-group-text" >$</span>
+            <input type="number" id="price" class="form-control">
+            
+        </div>
+
+        <div class="mb-3">
+            <label for="address">Address</label>
+            <textarea id="address" class="form-control"></textarea>
+            <div class="form-text">Enter your full address</div>
+        </div>
+
+        
+        <div class="mb-3">
+            <label for="gender">Gender</label>
+            <select id="gender" class="form-select">
+                <option>Male</option>
+                <option>Female</option>
+            </select>
+        </div>
+        <button class="btn btn-primary">Submit</button>
+    </form><br>
+
+    <div class="btn-group">
+        <a href="#" class="btn btn-primary">Left</a>
+        <a href="#" class="btn btn-primary">Center</a>
+        <a href="#" class="btn btn-primary">Right</a>
+    </div>
+
+    <div class="btn-group">
+        <a href="#" class="btn btn-outline-primary">Left</a>
+        <a href="#" class="btn btn-outline-primary">Center</a>
+        <a href="#" class="btn btn-outline-primary">Right</a>
+    </div>
+
+
+    <ul class="pagination mt-4">
+        <li class="page-item"><a href="#" class="page-link"><<</a></li>
+        <li class="page-item"><a href="#" class="page-link">1</a></li>
+        <li class="page-item"><a href="#" class="page-link">2</a></li>
+        <li class="page-item"><a href="#" class="page-link">3</a></li>
+        <li class="page-item"><a href="#" class="page-link">>></a></li>
+    </ul>
+
+    <div class="card bg-primary text-light">
+        <div class="card-header">
+            <strong>Card Title</strong>
+            <div class="card-body">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem pariatur maiores expedita saepe! Laudantium et dolore modi quis enim, pariatur at consequatur in animi ut, illo voluptatibus aut quas corporis!
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">One</li>
+                <li class="list-group-item">Two</li>
+                <li class="list-group-item">Three</li>
+            </ul>
+            <div class="card-footer">
+                <small>Card fotter</small>
+            </div>
+            <a href="#" class="btn btn-primary">See more</a>
+        </div>
+    </div>
+    
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

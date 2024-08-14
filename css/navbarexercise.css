@@ -1,0 +1,301 @@
+
+
+.header{
+    width:100%;
+    position: sticky;
+    top:0;
+    z-index: 4;
+  }
+
+.Search{
+
+    padding-left: 5%;
+}
+
+.JSY{
+    line-height: 50px;
+font-size: 60px;
+font-weight: bolder;
+padding-left:30% ;
+   
+    
+}
+
+.underjsy{
+    
+    padding-left: 30%;
+    
+    
+    
+}
+.log{
+    padding-left: 30%;
+   
+
+}
+.cart{
+    
+
+}
+
+
+
+.img-wrapper{
+    max-width: 100%;
+    height: 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
+.carousel-item{
+    width: 100%;
+    height: 100%;
+}
+
+.card{ 
+   border: 5px ;
+   background-color: rgb(247, 241, 217);
+  
+    
+}
+
+.moon1{
+        position: relative;
+        text-align: center;
+        color: white;
+}
+
+.text-on-moonpic{
+ width: 25%;
+ position: absolute;
+ text-align: left;
+  top: 50%;
+  left: 5%;
+  font-size: 40px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: black;
+}
+
+.shopnow{
+    margin-top: 50%;
+    font-size: 9px;}
+
+.wrap {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background-color: antiquewhite;
+    
+}
+
+
+
+
+
+
+.box1{
+    width: 50%;
+    text-align: center;
+    height: 500px;
+    background-color:rgb(230, 193, 202);
+    position:absolute;
+}
+
+
+.image1{
+    position: absolute;
+    font-size: 50px;
+    text-align: center;
+    font-style: oblique;
+    margin-top: 20%;
+    margin-left: 30%;
+    font-weight: bolder;
+
+}
+
+.shopnow{
+    margin-top: 50%;
+    font-size: 30px;
+}
+
+.cutedesktop{ 
+float: right; 
+width: 50%;
+height: 500px; 
+position: absolute;
+left: 50%}
+
+.slide1t {
+    text-align: center;
+    font-size: 20px;
+    font-weight: lighter;
+    
+}
+
+.longpic{
+    width: 100%; 
+    height: 600px;
+}
+
+
+
+.box2 {
+    width: 28%;
+    text-align: center;
+    height: 300px;
+    background-color: rgb(242, 215, 231);
+    margin-left: 50%;
+}
+
+.box3{
+    width: 29%;
+    text-align: center;
+    height: 300px;
+    background-color:rgb(243, 220, 241);
+    margin-left: 22.8%;
+}
+
+.boximage1{
+    width: 28%;
+    text-align: center;
+    height: 300px;
+    margin-left: 22.8%;
+    position: absolute;
+} 
+
+.boximage2{
+   height: 300px; 
+   width: 27%;
+   text-align: center;
+   margin-left: 50.9%;
+   position: absolute;
+} 
+.wrap1 {
+    width: 100%;
+    height: 400px;
+    align-items: center;
+    position: relative;
+    
+}
+
+.addcart{
+    text-align: center; 
+    margin-top: 30%;
+}
+
+.cute1{
+    width: 15%;
+    height: 100%;
+    position: absolute;
+    margin-left: 2%;
+}
+.cute2{
+
+    width: 15%;
+    height: 100%;
+    margin-left:18%;
+    position: absolute
+}
+.cute3{
+    width: 15%;
+    height: 100%;
+    margin-left: 35%;
+    position: absolute
+}
+.cute4{
+    width: 15%;
+    height: 100%;
+    margin-left: 52%;
+    position: absolute
+}
+.cute5{
+    width: 15%;
+    height: 100%;
+    margin-left: 68%;
+    position: absolute
+}
+.cute6{
+    width: 15%;
+    height: 100%;
+    margin-left: 84%;
+    position: absolute
+}
+.wrap2{
+    position: relative;
+    width: 100%;
+    height: 1000px;
+    background: rgb(247, 228, 246);
+}
+
+.footerjsy{
+    font-size: 2000%;
+    font-weight: 800; 
+    text-align: center;
+    margin-top: 3cm;
+    padding-top: 13cm;
+}
+
+.footertext1{
+    text-align: left;
+    font-size: smaller;
+    position: absolute; 
+    padding-top: .5cm;
+    padding-left: 15%; 
+}
+.footertext2{
+    text-align: left;
+    font-size: smaller;
+    position: absolute; 
+    padding-top:8cm;
+    padding-left: 15%;
+
+}
+.footertext3{
+    text-align: left;
+    font-size: smaller;
+    position: absolute; 
+    padding-top: .5cm;
+    padding-left: 35%; 
+}
+
+.footertext4{
+   text-align: left;
+   font-size: smaller;
+   position: absolute; 
+   padding-top: 8cm;
+   padding-left: 35%;
+}
+.footertext5{
+   text-align: left;
+   font-size:smaller;
+   position: absolute; 
+   padding-top: .5cm;
+   padding-left: 55%; 
+}
+.footertext6{
+    text-align: left;
+    font-size: smaller;
+    position: absolute; 
+    padding-top: 8cm;padding-left: 55%;
+}
+.footertext7{
+  width: 300px;
+   position: absolute; 
+   margin-left: 70%;
+   padding-top: 2cm;
+   font-size: smaller;
+   
+}
+
+
+.email{
+    border-radius: 20px; 
+    height: 35px; 
+    width: 65%;
+}
+.subscribe{
+    height: 35px;
+    width: 100px; ;
+}

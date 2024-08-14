@@ -1,0 +1,74 @@
+@media screen and (min-width: 600px){
+    .carousel-inner{
+        display: flex;
+    }
+    .caruosel-item{
+        display: block;
+        margin-right: 0;
+        flex: 0 0 calc(100%/3);
+    }
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: url(/images/galaxyjellyfish.jpg)  ;
+    /* background: url(/images/hellokitty.jpg)  rgb(35, 34, 34) no-repeat center;  */
+    
+}
+
+.card-list .card-item {
+    color: white
+    ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255 , 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+
+}
+
+.card-list .card-item .user-image {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 40%;
+    border: 3px solid #fff;
+    padding: 4px;
+
+}
+
+.card-list .card-item .user-profession{
+    font-size: 1.15rem;
+    color: #e3e3e3;
+font-weight: 500px;
+margin: 14px;
+
+}
+.card-list .card-item .message-button {
+    font-size: 1.25rem;
+    padding: 10px 35px;
+    color: black;
+    border-radius: 6px;
+    font-weight: 500;
+    cursor: pointer;
+    background: #fff;
+    border: 1px solid transparent;
+    transition: 0.2s ease;
+}
+
+.card-list .card-item .message-button:hover{
+    background:  rgba(225, 225, 225, 0.1);
+    border:  1px solid #fff;
+    color: #fff;
+}

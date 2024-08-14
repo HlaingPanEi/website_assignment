@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+   <!-- divinectorweb.com -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Product Card</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/card.css">
+</head>
+<body>
+
+<div id="carouselExample" class="carousel slide" style="width: 100%; height: 400px;">
+<div class="carousel-inner " style=" width: 100%;height: 550px; display: flex;padding: 1em;" >
+  <div class="wrapper">
+
+    <div class="carousel-item active" style=" display:block; flex: 0 0 calc(100%/3);margin-right: 0%;" >
+    <div class="single-card">
+      <div class="img-area">
+        <img src="./images/cute1.jpg" alt="">
+        <div class="overlay">
+          <button class="add-to-cart">Add to Cart</button>
+          <button class="view-details">View Details</button>
+        </div>
+      </div>
+      
+      <div class="info">
+        <h3>Mobile Phone</h3>
+        <p class="price">$199.99</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+      </div>
+    </div></div>
+  
+    <div class="carousel-item" style=" display:block; flex: 0 0 calc(100%/3);margin-right: 0%;" >
+    <div class="single-card">
+      <div class="img-area">
+        <img src="./images/cute2.jpg" alt="">
+        <div class="overlay">
+          <button class="add-to-cart">Add to Cart</button>
+          <button class="view-details">View Details</button>
+        </div>
+      </div>
+      <div class="info">
+        <h3>Laptop</h3>
+        <p class="price">$599.99</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="carousel-item" style=" display:block; flex: 0 0 calc(100%/3);margin-right: 0%;" >
+    <div class="single-card">
+      <div class="img-area">
+        <img src="./images/cute3.jpg" alt="">
+        <div class="overlay">
+          <button class="add-to-cart">Add to Cart</button>
+          <button class="view-details">View Details</button>
+        </div>
+      </div>
+      <div class="info">
+        <h3>Headphone</h3>
+        <p class="price">$29.99</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+      </div>
+    </div>
+    </div>
+
+  
+</div>
+<button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+  <span class="badge bg-dark rounded-pill" aria-hidden="true"><</span>
+  <span class="visually-hidden">Previous</span>
+</button>
+<button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+  <span class="badge bg-dark rounded-pill"aria-hidden="true">></span>
+  <span class="visually-hidden">Next</span>
+</button>
+</div>
+    
+
+<script src="./js/bootstrap.bundle.min.js"></script>
+
+
+
+</body>
+</html>

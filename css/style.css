@@ -1,0 +1,19 @@
+/* a {
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.first {
+    background: rgb(4, 95, 170);
+}
+
+.second {
+    background: rgb(65, 143, 65);
+} */
+
+.carouselExample {
+    width: 50%;
+}
